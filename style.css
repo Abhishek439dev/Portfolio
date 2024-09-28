@@ -1,0 +1,215 @@
+.largest{background-color: rgb(241, 217, 241);}
+
+.portfolio{text-align: center;
+margin-top: 10px;
+margin-bottom: 20px;
+padding-top :20px;
+font-size: 60px;
+color:rgb(151, 77, 123);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+.gridhero{display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    width:100%;
+   }
+
+.hero{
+grid-area: 1/1/2/2;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.image{grid-area: 1/2/2/3;
+    margin-left: 50px;
+}
+
+
+.heading{
+font-size: 45px;
+font-family: "Sacramento", cursive;
+color:rgb(129, 7, 132);
+margin: 50px;
+margin-left: 30px;
+margin-bottom: 10px;
+padding: 25px;
+padding-bottom: 0%;
+}
+
+.intro{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: light;
+    font-style:normal;
+        font-size: 20px;
+        color: white;
+        margin:50px;
+        margin-top:10px;
+        margin-right: 40px;
+        background-color: rgb(151, 77, 123);
+        border-radius: 10px;
+        padding: 20px;
+        max-width: 400px;
+      }
+
+
+.resume{display: flex;
+    flex-direction: column;
+    margin-left:270px;
+    margin-right: 270px;
+    padding:20px;}
+
+.subhead{
+    margin-top: 30px;
+margin-bottom:10px;
+font-size: 30px;}
+
+.period, .certi-id{float:right;
+position: relative;
+top: -60px;
+color: rgb(155, 79, 143);}
+
+.degree, .certi-name{font-family: sans-serif;
+color:rgb(155, 79, 143)}
+
+.uni, .provider{color: rgb(98, 90, 97);}
+.about, .info{font-family: sans-serif;}
+
+
+.listhead{font-family: sans-serif;
+color: rgb(155, 79, 143);}
+.listinfo{color: black;
+font-weight: lighter;
+font-size: 15px;}
+.ul-list{margin:0%}
+
+
+.project{margin-left:270px;
+    margin-right: 270px;
+    padding:20px;
+margin-top: 10px;
+padding: 5px;}
+
+.Projects{display: flex;
+flex-direction: row;
+gap:100px;
+flex-wrap: wrap;
+justify-content: center;
+margin-left:270px;
+    margin-right: 270px;
+    padding:20px;}
+
+.proimg{border: 2.5px rgb(162, 157, 157) solid;
+    border-radius: 10px;}
+
+.project-title{font-family: sans-serif;
+    color:rgb(155, 79, 143);}
+
+.project-info{color: black;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 15px;}
+
+.largest2{
+    background-color: rgb(241, 217, 241);}
+.abouttitle{margin-left:270px;
+    padding-top:20px;
+    margin-top: 10px;}
+    
+.aboutme{margin-left:270px;
+    margin-right: 270px;
+    padding:20px;
+margin-top: 10px;
+margin-bottom: 0%;
+padding: 5px;
+display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.aboutinfo{font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+color: rgb(59, 55, 59);
+font-size: 20px;
+width:450px;}
+
+.myimg{
+   margin-right: 20px;
+    border-radius:50%;
+margin-bottom: 100px;
+margin-right: 150px;}
+
+.contactdiv{margin-left:270px;
+    margin-right: 270px;}
+.contact{margin-bottom: 30px;}
+.email{margin-bottom: 15px;}
+.emailimg{display: inline;}
+.phoneimg, .phonepara{display: inline;}
+.emailimg, .phoneimg, .linkdinimg, .githubimg, .instagramimg{height:35px;}
+.emaillink, .phonepara{font-size: 20px; color: black;}
+.social{display: flex;
+flex-direction: row;
+gap:25px;
+margin-top: 20px;
+padding-top: 15px;
+padding-bottom: 50px;}
+
+.copyright{font-size: large;
+padding-bottom: 10px;
+margin-bottom: 0%;
+text-align: center;}
+
+@media(max-width:800px){
+.gridhero{display:flex;
+    flex-direction: column;
+    width:100%;
+    justify-content: center;
+    gap:10px;
+}
+
+.pc{width:100%;
+    height: 300px;
+padding: 10px;}
+.heading{text-align: center;
+margin-left: 50px;}
+
+.resume{margin: 0%;}
+.degree,.certi-name{margin-bottom: 0%;}
+
+.period,.certi-id{position: relative; 
+top:5px;
+float:left;
+margin: 0%;
+padding-top: 0%;
+}
+
+.uni{position: relative;
+top: 20px;
+left: -90px;}
+.provider{position: relative;
+    top: 20px;
+    left: -210px; }
+.about, .info{margin-top: 40px;}
+
+
+.project{margin-left: 15px;}
+.Projects{display: flex;
+flex-direction: column;
+gap: 40px;
+width:100%;
+margin-left: 0%;}
+
+.aboutme{display: flex;
+flex-direction: column;
+margin-left: 20px;}
+
+.abouttitle{margin-left: 20px;}
+.myimg{margin-left: 50%;}
+.aboutinfo{text-align: cener;
+margin-left: 22%;}
+
+.contactdiv{margin-left: 20px;}
+}

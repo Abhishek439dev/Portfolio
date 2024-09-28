@@ -97,6 +97,7 @@ padding: 5px;}
 flex-direction: row;
 gap:100px;
 justify-content: center;
+flex-wrap: wrap;
 margin-left:270px;
     margin-right: 270px;
     padding:20px;}

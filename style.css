@@ -96,7 +96,6 @@ padding: 5px;}
 .Projects{display: flex;
 flex-direction: row;
 gap:100px;
-flex-wrap: wrap;
 justify-content: center;
 margin-left:270px;
     margin-right: 270px;
